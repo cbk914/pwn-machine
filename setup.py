@@ -25,7 +25,7 @@ setup(
         "docker-compose==1.26.2",
         "dockerpty==0.4.1",
         "docopt==0.6.2",
-        "paramiko==2.7.1",
+        "paramiko==2.7.2",
         "pyaml==20.4.0",
         "requests==2.24.0",
         "tqdm==4.51.0",
