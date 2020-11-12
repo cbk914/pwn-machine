@@ -22,7 +22,7 @@ setup(
         "click==7.1.2",
         "dnspython==1.16.0",
         "docker==4.2.2",
-        "docker-compose==1.26.2",
+        "docker-compose==1.27.4",
         "dockerpty==0.4.1",
         "docopt==0.6.2",
         "paramiko==2.7.2",
