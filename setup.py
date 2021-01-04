@@ -28,7 +28,7 @@ setup(
         "paramiko==2.7.2",
         "pyaml==20.4.0",
         "requests==2.24.0",
-        "tqdm==4.51.0",
+        "tqdm==4.55.1",
         "tabulate==0.8.7",
     ],
     package_data={"skel": ["*"]},
