@@ -7,7 +7,7 @@ COPY pdns.conf.tpl domain.sql.tpl ./
 RUN python main.py pdns.conf.tpl pdns.conf
 RUN python main.py domain.sql.tpl domain.sql
 
-FROM ubuntu:latest
+FROM ubuntu:rolling
 RUN apt-get update
 RUN apt-get install pdns-server pdns-backend-mysql mariadb-client curl -y
 COPY --from=build domain.sql ./
