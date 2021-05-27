@@ -5,7 +5,7 @@ ENV PM_DOMAINS ${PM_DOMAINS}
 RUN ["python", "main.py", "www.tpl", "www.conf"]
 RUN ["python", "main.py", "dirlist.tpl", "dirlist.txt"]
 
-FROM nginx:1.19.0
+FROM nginx:latest
 RUN apt-get update && apt-get install -y nginx-extras
 COPY handle_php.conf /etc/nginx/
 COPY --from=build www.conf /etc/nginx/conf.d/
