@@ -20,7 +20,7 @@ setup(
     author_email="bitk@yeswehack.com",
     install_requires=[
         "click==7.1.2",
-        "dnspython==1.16.0",
+        "dnspython==2.2.0",
         "docker==4.2.2",
         "docker-compose==1.27.4",
         "dockerpty==0.4.1",
