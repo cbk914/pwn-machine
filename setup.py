@@ -27,7 +27,7 @@ setup(
         "docopt==0.6.2",
         "paramiko==2.7.2",
         "pyaml==20.4.0",
-        "requests==2.24.0",
+        "requests==2.28.1",
         "tqdm==4.51.0",
         "tabulate==0.8.7",
     ],
