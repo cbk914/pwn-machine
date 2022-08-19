@@ -21,7 +21,7 @@ setup(
     install_requires=[
         "click==7.1.2",
         "dnspython==1.16.0",
-        "docker==4.2.2",
+        "docker==6.0.0",
         "docker-compose==1.27.4",
         "dockerpty==0.4.1",
         "docopt==0.6.2",
