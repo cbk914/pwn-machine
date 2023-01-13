@@ -21,7 +21,7 @@ PyNaCl==1.4.0
 pyrsistent==0.17.3
 python-dotenv==0.15.0
 PyYAML==5.3.1
-requests==2.24.0
+requests==2.28.2
 six==1.15.0
 tabulate==0.8.7
 texttable==1.6.3
